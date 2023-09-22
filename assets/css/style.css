@@ -15,7 +15,7 @@ body {
 }
 
 .slider-img {
-
+    /* min-height: 650px; */
     filter: brightness(0.3);
 }
 
