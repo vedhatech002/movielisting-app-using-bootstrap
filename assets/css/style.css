@@ -23,11 +23,38 @@ body {
     font-size: 3rem;
 }
 
-.slider-caption {
-    position: absolute !important;
-    left: 0;
-    /* margin-left: -1rem; */
-    top: 0;
-    margin-top: 15rem !important;
-    /* width: 50%; */
+
+
+@media (max-width:576px) {
+    .mobile-nav {
+        background-color: black !important;
+    }
+
+    .slider {
+        margin-top: 3.68rem !important;
+    }
+
+    .slider .carousel-indicators {
+        margin-bottom: 0.3rem !important;
+    }
+
+    .slider-caption {
+
+        gap: 0 !important;
+
+    }
+
+    .slider-caption p {
+        font-size: 10px !important;
+    }
+
+    .slider-caption h1 {
+        font-size: 1rem !important;
+    }
+
+    .slider-caption button {
+        font-size: 10px !important;
+        padding: 4px 8px !important;
+
+    }
 }
