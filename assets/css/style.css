@@ -13,8 +13,11 @@ body {
 /* #14161d */
 .bg-first {
     background-color: #0f1014 !important;
-    box-shadow: 10px 0 5px #14161d;
     color: white !important;
+}
+
+.mv-btn {
+    background-color: linear-gradient(93.87deg, #095ae6, #062794) !important;
 }
 
 .bg-second {
@@ -36,15 +39,10 @@ body {
     font-size: 3rem;
 }
 
-.btn {
-    --bs-btn-padding-y: 10px;
-    --bs-btn-padding-x: 5px;
-    --bs-btn-font-size: 12px;
-}
 
 @media (max-width:576px) {
     .mobile-nav {
-        background-color: black !important;
+        background-color: #0f1014 !important;
     }
 
     .slider {
