@@ -21,8 +21,8 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto  mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link " aria-current="page" href="#">Home</a>
                     </li>
@@ -34,11 +34,8 @@
                         <a class="nav-link ">Series</a>
                     </li>
                 </ul>
-
-
-                <button class="btn btn-danger btn-sm" type="submit">Search</button>
-
             </div>
+            <button class="btn btn-primary btn-sm px-4 py-1">Sign up</button>
         </div>
     </nav>
     <!--======================= slider=============== -->
@@ -95,35 +92,31 @@
     <section class="movie-lists bg-first container-fluid">
         <div class="container pt-5">
             <ul class="nav navbar-expand-lg nav-pills pb-3 justify-content-center px-2" id="pills-tab" role="tablist">
-
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-marvel-tab" data-bs-toggle="pill"
-                        data-bs-target="#marvel-tab" type="button" role="tab" aria-controls="pills-profile"
-                        aria-selected="false">Marvel
+                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#all"
+                        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">All Movies</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-marvel-tab" data-bs-toggle="pill" data-bs-target="#marvel-tab"
+                        type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Marvel
                         Universe</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                        aria-selected="false">DC universe</button>
+                    <button class="nav-link" id="pills-dcu-tab" data-bs-toggle="pill" data-bs-target="#dcu"
+                        type="button" role="tab" aria-controls="pills-contact" aria-selected="false">DC
+                        universe</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                        aria-selected="false">Tamil Movies</button>
+                    <button class="nav-link" id="pills-tamil-tab" data-bs-toggle="pill" data-bs-target="#tamil"
+                        type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Tamil
+                        Movies</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                        aria-selected="false">Buisness</button>
+                    <button class="nav-link" id="pills-buisness-tab" data-bs-toggle="pill" data-bs-target="#buisness"
+                        type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Buisness</button>
                 </li>
                 <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
-                        data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
-                        aria-selected="false">Buisness</button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill"
+                    <button class="nav-link disabled" id="pills-contact-tab" data-bs-toggle="pill"
                         data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact"
                         aria-selected="false">Adventure</button>
                 </li>
@@ -131,10 +124,181 @@
 
             </ul>
         </div>
-        <!-- ============================= -->
+        <!-- ==============movies content=============== -->
         <div class="container-fluid tab-content " id="pills-tabContent">
-            <div class="container  tab-pane fade show active " id="marvel-tab" role="tabpanel"
+            <div class="container  tab-pane fade show active " id="all" role="tabpanel"
                 aria-labelledby="pills-profile-tab" tabindex="0">
+                <div class="row gy-3 justify-content-center pb-4">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/tamil/mankatha.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mankatha</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/tamil/billa.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Billa</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/tamil/vikram.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vikram</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/tamil/arambam.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Arambam</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/tamil/vikramvedha.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vedha</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10 ">
+                        <div class="card bg-second">
+                            <img src="./assets/img/marvel/ironman.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Iron Man</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/marvel/thor.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Thor</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/marvel/spidermanfarfromhome.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Spider Man</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/dc/blackadam.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Black Adam</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/dc/superman.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Man of steel</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/dc/aquaman.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Aquaman</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/buisness/guru.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Guru</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/buisness/stevejobs.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Steve Jobs</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/buisness/wolf of the wall street.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">wolf of wall</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/buisness/social network.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title ov">Social Net</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/marvel/venom.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Venom</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/marvel/Civilwarmarvel.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Civil War</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/marvel/wolverine.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">X Men</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ==================marvel============================= -->
+            <div class="container  tab-pane fade " id="marvel-tab" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
                 <div class="row gy-3 justify-content-center pb-4">
                     <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10 ">
                         <div class="card bg-second">
@@ -248,6 +412,196 @@
 
                 </div>
             </div>
+            <!-- ====================DC======================== -->
+            <div class="container  tab-pane fade  " id="dcu" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+                <div class="row gy-3 justify-content-center pb-4">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/dc/blackadam.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Black Adam</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/dc/superman.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Man of steel</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/dc/aquaman.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Aquaman</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/dc/justicelegue.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Justice lig</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/dc/shazam.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">shazam</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/dc/svsb.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Sup vs Bat</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ================================tamil==================== -->
+            <div class="container  tab-pane fade  " id="tamil" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+                <div class="row gy-3 justify-content-center pb-4">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/tamil/mankatha.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Mankatha</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/tamil/billa.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Billa</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/tamil/vikram.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vikram</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/tamil/arambam.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Arambam</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/tamil/vikramvedha.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Vedha</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/tamil/thanioruvan.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Thanioruvan</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <!-- ========================buisness=========================== -->
+            <div class="container  tab-pane fade  " id="buisness" role="tabpanel" aria-labelledby="pills-profile-tab"
+                tabindex="0">
+                <div class="row gy-3 justify-content-center pb-4">
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/buisness/guru.jpeg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Guru</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/buisness/stevejobs.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Steve Jobs</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/buisness/wolf of the wall street.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">wolf of wall</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/buisness/social network.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title ov">Social Net</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/buisness/padyappa.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">padyappa</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-10">
+                        <div class="card bg-second">
+                            <img src="./assets/img/buisness/suryavamsam.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Suryavamsa</h5>
+                                <a href="#" class="btn  bg-first">Watch Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 
     </section>

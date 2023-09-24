@@ -13,6 +13,7 @@ body {
 /* #14161d */
 .bg-first {
     background-color: #0f1014 !important;
+    box-shadow: 10px 0 5px #14161d;
     color: white !important;
 }
 
