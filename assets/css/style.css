@@ -16,6 +16,11 @@ body {
     color: white !important;
 }
 
+.card-body .bg-first:hover {
+    /* background-color: linear-gradient(93.87deg, #095ae6, #062794) !important; */
+    background-color: #01147C !important;
+}
+
 .mv-btn {
     background-color: linear-gradient(93.87deg, #095ae6, #062794) !important;
 }

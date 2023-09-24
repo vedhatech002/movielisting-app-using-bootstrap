@@ -14,7 +14,7 @@
 <body>
     <!-- ======================navbar=========================== -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top mobile-nav" id="head-nav">
-        <div class="container d-flex justify-content-between">
+        <div class="container-sm d-flex justify-content-between ">
             <a class="navbar-brand fs-4" href="#">My Movies</a>
             <button class="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -309,7 +309,7 @@
                             <img src="./assets/img/marvel/ironman.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Iron Man</h5>
-                                <a href="#" class="btn  bg-first">Watch Now</a>
+                                <a href="https://www.imdb.com/title/tt0371746/" class="btn  bg-first">Watch Now</a>
                             </div>
                         </div>
                     </div>
@@ -318,7 +318,7 @@
                             <img src="./assets/img/marvel/thor.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Thor</h5>
-                                <a href="#" class="btn  bg-first">Watch Now</a>
+                                <a href="https://www.imdb.com/title/tt0800369/" class="btn  bg-first">Watch Now</a>
                             </div>
                         </div>
                     </div>
@@ -327,7 +327,7 @@
                             <img src="./assets/img/marvel/spidermanfarfromhome.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Spider Man</h5>
-                                <a href="#" class="btn  bg-first">Watch Now</a>
+                                <a href="https://www.imdb.com/title/tt6320628/" class="btn  bg-first">Watch Now</a>
                             </div>
                         </div>
                     </div>
@@ -336,7 +336,7 @@
                             <img src="./assets/img/marvel/venom.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Venom</h5>
-                                <a href="#" class="btn  bg-first">Watch Now</a>
+                                <a href="https://www.imdb.com/title/tt7097896/" class="btn  bg-first">Watch Now</a>
                             </div>
                         </div>
                     </div>
@@ -345,7 +345,8 @@
                             <img src="./assets/img/marvel/captainamerica.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h5 class="card-title">Captain Us</h5>
-                                <a href="#" class="btn  bg-first">Watch Now</a>
+                                <a href="https://www.imdb.com/title/tt0458339/" target="blank"
+                                    class="btn  bg-first">Watch Now</a>
                             </div>
                         </div>
                     </div>
@@ -610,13 +611,23 @@
 
     </section>
     <footer class="bg-first">
-        <div class="container">
-            <h6 class="h6 text-center pt-5">Subscribe to Newsletter</h6>
-            <div class="input-group pb-3 pt-4 w-50 mx-auto">
-                <input type="text" class="form-control" placeholder="your@mail.com" aria-label="Recipient's username"
-                    aria-describedby="button-addon2">
-                <button class="btn btn-primary" type="button" id="button-addon2">Submit</button>
+        <div class="container-fluid">
+
+            <div class="row pb-3 pt-4 pb-4 justify-content-center ">
+                <div class="col-xl-5 col-lg-5 col-md-6 col">
+                    <h5 class="h5 text-center pt-5">Subscribe to Newsletter</h5>
+                    <div class="d-flex   align-items-baseline">
+                        <input type="email" class="form-control mt-4 " id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                        <button class="btn btn-primary mt-3 ms-2">Subscribe</button>
+                    </div>
+
+                </div>
             </div>
+        </div>
+        <div class="container-fluid">
+            <p class="text-secondary mb-0 fs-6 text-center pb-3">&#169; Created by <a class="link-info "
+                    href="">Vijayavedhasekaran</a></p>
         </div>
     </footer>
     <script>
